@@ -8,7 +8,7 @@ const CategoryList = () => {
         <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6">
           <div className="relative w-full h-96 bg-slate-100">
             <Image
-              src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               fill
               sizes="25vw"
@@ -22,7 +22,7 @@ const CategoryList = () => {
         <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6">
           <div className="relative w-full h-96 bg-slate-100">
             <Image
-              src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               fill
               sizes="25vw"
@@ -36,7 +36,7 @@ const CategoryList = () => {
         <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6">
           <div className="relative w-full h-96 bg-slate-100">
             <Image
-              src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               fill
               sizes="25vw"
@@ -50,7 +50,7 @@ const CategoryList = () => {
         <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6">
           <div className="relative w-full h-96 bg-slate-100">
             <Image
-              src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               fill
               sizes="25vw"
@@ -64,7 +64,7 @@ const CategoryList = () => {
         <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6">
           <div className="relative w-full h-96 bg-slate-100">
             <Image
-              src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               fill
               sizes="25vw"
@@ -78,7 +78,7 @@ const CategoryList = () => {
         <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6">
           <div className="relative w-full h-96 bg-slate-100">
             <Image
-              src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               fill
               sizes="25vw"
@@ -92,7 +92,21 @@ const CategoryList = () => {
         <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6">
           <div className="relative w-full h-96 bg-slate-100">
             <Image
-              src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt=""
+              fill
+              sizes="25vw"
+              className="object-cover"
+            />
+          </div>
+          <h2 className="text-xl mt-8 font-light tracking-wide">
+            Category name
+          </h2>
+        </Link>
+        <Link href="/list?cat=test" className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 xl:w-1/6">
+          <div className="relative w-full h-96 bg-slate-100">
+            <Image
+              src="https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               fill
               sizes="25vw"

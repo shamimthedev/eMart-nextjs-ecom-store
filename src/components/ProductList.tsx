@@ -7,14 +7,14 @@ const ProductList = () => {
       <Link href="/test" className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
         <div className="relative w-full h-80 ">
           <Image
-            src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
             fill
             sizes="25vw"
             className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500"
           />
           <Image
-            src="https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/279906/pexels-photo-279906.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
             fill
             sizes="25vw"
@@ -31,14 +31,14 @@ const ProductList = () => {
       <Link href="/test" className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
         <div className="relative w-full h-80 ">
           <Image
-            src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/5208784/pexels-photo-5208784.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
             fill
             sizes="25vw"
             className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500"
           />
           <Image
-            src="https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/5208781/pexels-photo-5208781.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
             fill
             sizes="25vw"
@@ -55,14 +55,14 @@ const ProductList = () => {
       <Link href="/test" className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
         <div className="relative w-full h-80 ">
           <Image
-            src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
             fill
             sizes="25vw"
             className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500"
           />
           <Image
-            src="https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
             fill
             sizes="25vw"
@@ -79,14 +79,14 @@ const ProductList = () => {
       <Link href="/test" className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
         <div className="relative w-full h-80 ">
           <Image
-            src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/39716/pexels-photo-39716.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
             fill
             sizes="25vw"
             className="absolute object-cover rounded-md z-10 hover:opacity-0 transition-opacity easy duration-500"
           />
           <Image
-            src="https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/704241/pexels-photo-704241.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt=""
             fill
             sizes="25vw"
