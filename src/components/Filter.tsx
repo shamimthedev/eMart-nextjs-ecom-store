@@ -28,36 +28,19 @@ const Filter = () => {
           id=""
           className="py-2 px-4 rounded-2xl font-medium bg-[#EBEDED] text-xs"
         >
-          <option>Type</option>
-          <option value="physical">Physical</option>
-          <option value="digital">Digital</option>
+          <option>Category</option>
+          <option value="New Arrival">New Arrival</option>
+          <option value="popular">Popular</option>
         </select>
         <select
           name="type"
           id=""
           className="py-2 px-4 rounded-2xl font-medium bg-[#EBEDED] text-xs"
         >
-          <option>Type</option>
-          <option value="physical">Physical</option>
-          <option value="digital">Digital</option>
-        </select>
-        <select
-          name="type"
-          id=""
-          className="py-2 px-4 rounded-2xl font-medium bg-[#EBEDED] text-xs"
-        >
-          <option>Type</option>
-          <option value="physical">Physical</option>
-          <option value="digital">Digital</option>
-        </select>
-        <select
-          name="type"
-          id=""
-          className="py-2 px-4 rounded-2xl font-medium bg-[#EBEDED] text-xs"
-        >
-          <option>Type</option>
-          <option value="physical">Physical</option>
-          <option value="digital">Digital</option>
+          <option>Size</option>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
         </select>
       </div>
       <div className="">
