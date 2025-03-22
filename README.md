@@ -2,14 +2,12 @@
 
 ![eMart Screenshot](./src/assets/desktop-ss-01.png)
 
-eMart is a modern and responsive e-commerce platform built with **Next.js** and **Tailwind CSS**. It provides a seamless shopping experience, allowing users to browse products, add them to their cart, and complete purchases. The app leverages the power of Next.js for server-side rendering (SSR) and static site generation (SSG), ensuring fast performance and SEO optimization.
+eMart is a modern and responsive e-commerce platform built with **Next.js** and **Tailwind CSS**. It provides a seamless shopping experience, allowing users to browse products, add them to their cart. The app leverages the power of Next.js for server-side rendering (SSR) and static site generation (SSG), ensuring fast performance and SEO optimization.
 
 ## Features
 
 - **Product Browsing**: Browse products with categories and filters.
 - **Shopping Cart**: Add and remove products from your cart.
-- **User Authentication**: Sign up, log in, and manage your account.
-- **Secure Checkout**: Complete purchases with a secure payment process.
 - **Responsive Design**: Works seamlessly on all devices.
 - **SEO Optimization**: Built with Next.js for improved search engine visibility.
 
