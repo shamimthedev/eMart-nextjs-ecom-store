@@ -99,10 +99,10 @@ const ProductCard = ({ product }: { product: Product }) => {
   return (
     <Link 
       href={`/products/${product.slug}`} 
-      className="group w-full flex flex-col sm:w-[45%] lg:w-[22%] bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
+      className="group block bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
     >
       {/* Image Container */}
-      <div className="relative w-full h-80 overflow-hidden rounded-t-2xl bg-gray-50">
+      <div className="relative w-full aspect-[4/5] overflow-hidden rounded-t-2xl bg-gray-50">
         {product.badge && (
           <div className="absolute top-4 left-4 z-20 bg-pinki text-white px-3 py-1 rounded-full text-xs font-medium">
             {product.badge}
@@ -133,32 +133,39 @@ const ProductCard = ({ product }: { product: Product }) => {
       </div>
 
       {/* Content Container */}
-      <div className="flex flex-col gap-3 p-4 flex-grow">
+      <div className="p-4 space-y-3">
         {/* Rating */}
         {product.rating && <StarRating rating={product.rating} />}
         
         {/* Title and Price */}
-        <div className="flex justify-between items-start gap-2">
-          <h3 className="font-semibold text-gray-900 group-hover:text-pinki transition-colors duration-200 line-clamp-2">
+        <div className="space-y-2">
+          <h3 className="font-semibold text-gray-900 group-hover:text-pinki transition-colors duration-200 line-clamp-2 min-h-[48px]">
             {product.name}
           </h3>
-          <div className="flex flex-col items-end">
-            <span className="font-bold text-gray-900">${product.price}</span>
+          <div className="flex items-center justify-between">
+            <div className="flex flex-col">
+              <span className="font-bold text-lg text-gray-900">${product.price}</span>
+              {product.originalPrice && (
+                <span className="text-sm text-gray-500 line-through">
+                  ${product.originalPrice}
+                </span>
+              )}
+            </div>
             {product.originalPrice && (
-              <span className="text-sm text-gray-500 line-through">
-                ${product.originalPrice}
-              </span>
+              <div className="text-xs bg-red-100 text-red-600 px-2 py-1 rounded-full font-medium">
+                {Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)}% OFF
+              </div>
             )}
           </div>
         </div>
 
         {/* Description */}
-        <p className="text-sm text-gray-600 line-clamp-2 flex-grow">
+        <p className="text-sm text-gray-600 line-clamp-2 min-h-[40px]">
           {product.description}
         </p>
 
         {/* Add to Cart Button */}
-        <button className="w-full mt-4 bg-pinki/10 text-pinki border border-pinki/20 py-3 px-4 rounded-xl font-medium transition-all duration-200 hover:bg-pinki hover:text-white hover:border-pinki hover:shadow-lg hover:shadow-pinki/25 active:scale-98">
+        <button className="w-full bg-pinki/10 text-pinki border border-pinki/20 py-3 px-4 rounded-xl font-medium transition-all duration-200 hover:bg-pinki hover:text-white hover:border-pinki hover:shadow-lg hover:shadow-pinki/25 active:scale-98 mt-4">
           Add to Cart
         </button>
       </div>
@@ -169,10 +176,12 @@ const ProductCard = ({ product }: { product: Product }) => {
 // Main ProductList Component
 const ProductList = () => {
   return (
-    <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-      {products.map((product) => (
-        <ProductCard key={product.id} product={product} />
-      ))}
+    <div className="mt-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8">
+        {products.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))}
+      </div>
     </div>
   );
 };
