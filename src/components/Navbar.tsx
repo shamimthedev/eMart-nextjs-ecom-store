@@ -62,7 +62,6 @@ const Navbar = () => {
                 { name: 'Categories', href: '/categories' },
                 { name: 'Deals', href: '/deals' },
                 { name: 'About', href: '/about' },
-                { name: 'Contact', href: '/contact' }
               ].map((item) => (
                 <Link
                   key={item.name}
