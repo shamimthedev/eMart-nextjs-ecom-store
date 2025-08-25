@@ -1,3 +1,4 @@
+// src/components/ProductList.tsx
 import Image from "next/image";
 import Link from "next/link";
 
@@ -98,7 +99,7 @@ const StarRating = ({ rating }: { rating: number }) => {
 const ProductCard = ({ product }: { product: Product }) => {
   return (
     <Link 
-      href={`/products/${product.slug}`} 
+      href={`/${product.slug}`} // FIXED: Changed from `/products/${product.slug}` to `/${product.slug}`
       className="group block bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden"
     >
       {/* Image Container */}
