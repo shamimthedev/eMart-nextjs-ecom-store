@@ -1,6 +1,7 @@
 {
-  "name": "next-ecommmerce",
+  "name": "pinkcart-ecommerce",
   "version": "0.1.0",
+  "description": "Modern e-commerce platform with seamless shopping experience",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
