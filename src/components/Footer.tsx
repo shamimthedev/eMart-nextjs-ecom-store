@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="space-y-6">
               <Link href="/" className="inline-block group">
                 <div className="text-3xl font-bold tracking-wide bg-gradient-to-r from-pinki to-purple-400 bg-clip-text text-transparent group-hover:from-purple-400 group-hover:to-pinki transition-all duration-300">
-                  eMart
+                  PinkCart
                 </div>
               </Link>
               
@@ -33,11 +33,11 @@ const Footer = () => {
                   <span className="text-sm">3252 Winding Way, Central Plaza, Willowbrook, CA 90215</span>
                 </div>
                 
-                <Link href="mailto:hello@emart.com" className="flex items-center gap-3 text-gray-300 hover:text-pinki transition-colors duration-200 group">
+                <Link href="mailto:hello@pinkcart.com" className="flex items-center gap-3 text-gray-300 hover:text-pinki transition-colors duration-200 group">
                   <svg className="w-5 h-5 text-pinki" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  <span className="text-sm group-hover:underline">hello@emart.com</span>
+                  <span className="text-sm group-hover:underline">hello@pinkcart.com</span>
                 </Link>
                 
                 <Link href="tel:+1235412345" className="flex items-center gap-3 text-gray-300 hover:text-pinki transition-colors duration-200 group">
@@ -224,7 +224,7 @@ const Footer = () => {
             {/* Copyright */}
             <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="text-sm text-gray-400">
-                © {currentYear} eMart. All rights reserved.
+                © {currentYear} PinkCart. All rights reserved.
               </div>
               <div className="flex gap-6 text-sm text-gray-400">
                 <Link href="/privacy" className="hover:text-pinki transition-colors duration-200">Privacy Policy</Link>

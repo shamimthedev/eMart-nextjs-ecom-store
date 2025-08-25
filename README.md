@@ -1,8 +1,8 @@
-# eMart
+# PinkCart
 
-![eMart Screenshot](./src/assets/desktop-ss-01.png)
+![PinkCart Screenshot](./src/assets/desktop-ss-01.png)
 
-eMart is a modern and responsive e-commerce platform built with **Next.js** and **Tailwind CSS**. It provides a seamless shopping experience, allowing users to browse products, add them to their cart. The app leverages the power of Next.js for server-side rendering (SSR) and static site generation (SSG), ensuring fast performance and SEO optimization.
+PinkCart is a modern and responsive e-commerce platform built with **Next.js** and **Tailwind CSS**. It provides a seamless shopping experience, allowing users to browse products, add them to their cart. The app leverages the power of Next.js for server-side rendering (SSR) and static site generation (SSG), ensuring fast performance and SEO optimization.
 
 ## Features
 
@@ -27,10 +27,10 @@ eMart is a modern and responsive e-commerce platform built with **Next.js** and 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/emart.git
+   git clone https://github.com/your-username/PinkCart.git
 2. Navigate to the project directory:
     ```bash
-    cd emart
+    cd PinkCart
 3. Install dependencies:
     ```bash
     npm install
@@ -61,8 +61,8 @@ This app is deployed on Vercel. To deploy your own version:
 
 ## Screenshots
 
-![eMart Screenshot1](./src/assets/desktop-ss-01.png) 
-![eMart Screenshot2](./src/assets/desktop-ss-02.png) 
+![PinkCart Screenshot1](./src/assets/desktop-ss-01.png) 
+![PinkCart Screenshot2](./src/assets/desktop-ss-02.png) 
 
 ## Contributing
 

@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="h-full flex items-center justify-between md:hidden">
           <Link href="/" className="group">
             <div className="text-2xl font-bold tracking-wide bg-gradient-to-r from-pinki to-purple-600 bg-clip-text text-transparent">
-              eMart
+              PinkCart
             </div>
           </Link>
           <Menu />
@@ -44,14 +44,14 @@ const Navbar = () => {
               <div className="relative">
                 <Image 
                   src="/logo.png" 
-                  alt="eMart logo" 
+                  alt="PinkCart logo" 
                   width={32} 
                   height={32}
                   className="group-hover:scale-110 transition-transform duration-200"
                 />
               </div>
               <div className="text-2xl font-bold tracking-wide bg-gradient-to-r from-pinki to-purple-600 bg-clip-text text-transparent">
-                eMart
+                PinkCart
               </div>
             </Link>
             
